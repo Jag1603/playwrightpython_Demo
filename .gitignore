@@ -1,0 +1,36 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environments
+.venv*/
+venv/
+env/
+ENV/
+
+# Test and coverage reports
+.coverage
+.coverage.*
+htmlcov/
+pytestdebug.log
+test-results/
+playwright-report/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Downloaded Playwright browsers
+chrome-win64/
+
+# Local tooling and editor files
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db

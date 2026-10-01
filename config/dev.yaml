@@ -1,0 +1,13 @@
+base_url: "https://practicetestautomation.com/practice-test-login/"
+
+browser: "chromium"
+
+headless: false
+
+timeouts:
+  default: 30000
+  navigation: 30000
+
+credentials:
+  username: "student"
+  password: "Password123"
